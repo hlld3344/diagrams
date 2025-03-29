@@ -51,7 +51,7 @@
         <mxCell id="-YbURKZivewxaCFzF05h-3" value="技术平台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sVAgTZllFxHXXEI3geGE-1" value="已萃取的业务知识&lt;div&gt;（智能体）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sVAgTZllFxHXXEI3geGE-1" value="存量业务知识&lt;div&gt;（智能体）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sVAgTZllFxHXXEI3geGE-2" value="业务人员日常工作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
