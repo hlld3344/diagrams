@@ -342,6 +342,9 @@
         <mxCell id="W9ZRotF47JclheKv-bLR-139" value="其他自定义处理Chain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="583" width="146" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="W9ZRotF47JclheKv-bLR-146" value="知识图谱构建流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="60" width="320" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
