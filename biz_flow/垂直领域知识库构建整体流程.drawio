@@ -374,10 +374,10 @@
           <mxGeometry x="1229.5" y="760" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1382" y="760" width="318" height="520" as="geometry" />
+          <mxGeometry x="1382" y="760" width="258" height="520" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-5" value="OpenSPG BE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1492" y="760" width="90" height="30" as="geometry" />
+          <mxGeometry x="1466" y="760" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1980" y="760" width="120" height="519" as="geometry" />
@@ -392,16 +392,25 @@
           <mxGeometry x="1042.5" y="800" width="39" height="39" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-10" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="759" width="240" height="520" as="geometry" />
+          <mxGeometry x="1660" y="759" width="300" height="520" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-11" value="OpenSPG KAG" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1795" y="759" width="90" height="30" as="geometry" />
+          <mxGeometry x="1765" y="759" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-12" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1040" width="160" height="240" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-13" value="OpenSPG KAG" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1229.5" y="1040" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="910" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-16" value="Solver Pipeline" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="809" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-18" value="iteration" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="850" width="180" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
