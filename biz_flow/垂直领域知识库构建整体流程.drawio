@@ -330,7 +330,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W9ZRotF47JclheKv-bLR-118" value="PostProcessor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1726" y="540" width="60" height="30" as="geometry" />
+          <mxGeometry x="1726" y="540" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W9ZRotF47JclheKv-bLR-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="W9ZRotF47JclheKv-bLR-119" target="W9ZRotF47JclheKv-bLR-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -371,7 +371,7 @@
           <mxGeometry x="1375" y="60" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y2xWvQUmhy8zB1OBUH8H-4" value="Writer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="540" width="80" height="30" as="geometry" />
+          <mxGeometry x="1840" y="540" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-1" value="OpenSPG知识问答流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1408" y="700" width="320" height="40" as="geometry" />
