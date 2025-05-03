@@ -757,7 +757,7 @@
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-144" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="EqnmrQHS3Cuvg51kW6q9-134" target="EqnmrQHS3Cuvg51kW6q9-143">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-134" value="基于评测结果选择知识库构建方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-134" value="基于评测结果选择知识库构建方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="400" y="1120" width="103.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-137" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="EqnmrQHS3Cuvg51kW6q9-136" target="EqnmrQHS3Cuvg51kW6q9-134">
@@ -800,7 +800,7 @@
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-159" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="EqnmrQHS3Cuvg51kW6q9-153" target="EqnmrQHS3Cuvg51kW6q9-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-153" value="基于知识库构建方式选择处理方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-153" value="基于知识库构建方式选择处理方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="400" y="1410" width="103.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-156" value="用户问题实体识别和图查询语句生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
