@@ -599,7 +599,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="EqnmrQHS3Cuvg51kW6q9-79" target="EqnmrQHS3Cuvg51kW6q9-71">
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=0;flowAnimation=0;" edge="1" parent="1" source="EqnmrQHS3Cuvg51kW6q9-79" target="EqnmrQHS3Cuvg51kW6q9-71">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1100" y="1553" />
@@ -672,7 +672,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-109" value="知识建模概况图" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-109" value="知识建模和应用" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="380" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-111" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -712,6 +712,9 @@
         </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-129" value="OpenSPG&lt;div&gt;search-engine&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2001" y="1590" width="85.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqnmrQHS3Cuvg51kW6q9-132" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1280" width="103.75" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
