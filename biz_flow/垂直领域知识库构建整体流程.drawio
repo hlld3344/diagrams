@@ -1025,6 +1025,15 @@
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-72" value="知识问答" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1477" y="2069.5" width="97.75" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-74" value="系统/库表" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.primary_site" vertex="1" parent="1">
+          <mxGeometry x="1264.5" y="1790" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-75" value="知识库管理员" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
+          <mxGeometry x="1038.6100000000001" y="1794" width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-77" value="数字人平台" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.secondary_site" vertex="1" parent="1">
+          <mxGeometry x="1490.5" y="1785" width="41" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
