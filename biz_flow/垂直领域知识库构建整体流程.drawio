@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-52" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1920" width="640" height="260.75" as="geometry" />
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-88" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1950" width="360" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1980" y="760" width="120" height="519" as="geometry" />
         </mxCell>
@@ -968,9 +974,6 @@
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-51" value="知识推理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1508" y="2300.5" width="59" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CEQbyhLI9Zi0lonrpoHH-52" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1880" width="640" height="300.75" as="geometry" />
-        </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-53" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="2199.5" width="270" height="160" as="geometry" />
         </mxCell>
@@ -990,49 +993,82 @@
           <mxGeometry x="1138.6899999999998" y="2300.75" width="55.65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-61" value="&lt;b&gt;DeepBank-KB&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1223.5" y="1879" width="102" height="30" as="geometry" />
+          <mxGeometry x="1223.5" y="1919.5" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-62" value="离线/在线文档、业务库数据知识上传" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990.64" y="1944" width="109.36" height="40" as="geometry" />
+          <mxGeometry x="1000.72" y="1966.25" width="109.36" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-63" value="知识库召回效果验证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1395" y="1944" width="79" height="40" as="geometry" />
+          <mxGeometry x="1260.58" y="1966.25" width="79" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-64" value="知识库问答效果验证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1494" y="1944" width="79" height="40" as="geometry" />
+          <mxGeometry x="1260.08" y="2023.75" width="79" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-65" value="知识库的知识展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1212" y="1945.5" width="79" height="40" as="geometry" />
+          <mxGeometry x="1000.4300000000001" y="2022.25" width="109.65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-66" value="知识库内容编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1311" y="1944.75" width="64" height="40" as="geometry" />
+          <mxGeometry x="1150.08" y="2023.75" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-67" value="知识更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1945.5" width="71.31" height="40" as="geometry" />
+          <mxGeometry x="1150.08" y="1966.25" width="71.31" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-68" value="知识库构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="990.64" y="2069.5" width="99.36" height="60" as="geometry" />
+          <mxGeometry x="990.64" y="2099.5" width="99.36" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-69" value="知识库更新" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="2069.5" width="91.31" height="60" as="geometry" />
+          <mxGeometry x="1115" y="2099.5" width="91.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-70" value="知识展示" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1231" y="2069.5" width="98" height="60" as="geometry" />
+          <mxGeometry x="1231" y="2099.5" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-71" value="知识召回" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1354" y="2069.5" width="97.75" height="60" as="geometry" />
+          <mxGeometry x="1354" y="2099.5" width="97.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-72" value="知识问答" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1477" y="2069.5" width="97.75" height="60" as="geometry" />
+          <mxGeometry x="1477" y="2099.5" width="97.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-74" value="系统/库表" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.primary_site" vertex="1" parent="1">
-          <mxGeometry x="1264.5" y="1790" width="40" height="40" as="geometry" />
+          <mxGeometry x="1206.31" y="1785" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-75" value="知识库管理员" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
-          <mxGeometry x="1038.6100000000001" y="1794" width="50" height="36" as="geometry" />
+          <mxGeometry x="1066" y="1787" width="50" height="36" as="geometry" />
         </mxCell>
         <mxCell id="CEQbyhLI9Zi0lonrpoHH-77" value="数字人平台" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.secondary_site" vertex="1" parent="1">
-          <mxGeometry x="1490.5" y="1785" width="41" height="50" as="geometry" />
+          <mxGeometry x="1460.5" y="1780" width="39.5" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-80" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.53;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090.0048000000002" y="1850" as="sourcePoint" />
+            <mxPoint x="1090.35" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-81" value="知识库管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEQbyhLI9Zi0lonrpoHH-80">
+          <mxGeometry x="-0.1713" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-82" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.53;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1225.8148" y="1850" as="sourcePoint" />
+            <mxPoint x="1226.1599999999999" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-87" value="知识构建/更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEQbyhLI9Zi0lonrpoHH-82">
+          <mxGeometry x="-0.2286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-89" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.53;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480.5048000000002" y="1849.5" as="sourcePoint" />
+            <mxPoint x="1480.85" y="1919.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEQbyhLI9Zi0lonrpoHH-90" value="知识召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CEQbyhLI9Zi0lonrpoHH-89">
+          <mxGeometry x="-0.2286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
