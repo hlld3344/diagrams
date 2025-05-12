@@ -762,17 +762,6 @@
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-134" value="基于评测结果选择知识库构建方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="400" y="1120" width="103.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-137" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="EqnmrQHS3Cuvg51kW6q9-136" target="EqnmrQHS3Cuvg51kW6q9-134" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350" y="1200" />
-              <mxPoint x="350" y="1140" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EqnmrQHS3Cuvg51kW6q9-136" value="URL对应资源平台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="214.82" y="1179.75" width="103.75" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="EqnmrQHS3Cuvg51kW6q9-165" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="1" source="EqnmrQHS3Cuvg51kW6q9-141" target="EqnmrQHS3Cuvg51kW6q9-164" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
