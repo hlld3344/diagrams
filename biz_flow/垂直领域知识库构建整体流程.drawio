@@ -1092,40 +1092,97 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-25" value="知识库管理员" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
-          <mxGeometry x="1702" y="2006.25" width="50" height="36" as="geometry" />
+          <mxGeometry x="1702" y="2044" width="50" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-26" target="Ms4OPCBnXegPCIXSTtiP-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-26" value="离线/在线文档、业务库数据知识上传" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1780.6399999999999" y="1879.5" width="109.36" height="40" as="geometry" />
+          <mxGeometry x="1780.6399999999999" y="1947.25" width="109.36" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-31" target="Ms4OPCBnXegPCIXSTtiP-35">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-31" target="Ms4OPCBnXegPCIXSTtiP-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="1916.75" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-31" target="Ms4OPCBnXegPCIXSTtiP-37">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-45">
+          <mxGeometry x="-0.1574" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-31" value="是否需要构建知识图谱" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="1860" width="80" height="80" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-31" target="Ms4OPCBnXegPCIXSTtiP-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="1967.75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-58">
+          <mxGeometry x="-0.0578" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-31" value="是否需构建知识图谱？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="1927.75" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-35" target="Ms4OPCBnXegPCIXSTtiP-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-35" value="Navie Rag知识库构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="1875.25" width="89.36" height="49.5" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-66" value="知识图谱写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-40">
+          <mxGeometry x="-0.0384" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-37" value="Graph Rag知识库构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="1945.32" y="2010.5" width="89.36" height="49.5" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-35" value="SPG知识图谱构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2089" y="2056.75" width="89.36" height="49.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-39" value="Elastic Search" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="1859.5" width="60" height="80" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-37" value="Navie Rag知识库构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1945.32" y="1824.25" width="89.36" height="49.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ms4OPCBnXegPCIXSTtiP-41" value="Neo4j" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2139.36" y="1995.25" width="60" height="80" as="geometry" />
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-39" value="Neo4j" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2298.3599999999997" y="2041.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-41" value="Elastic Search" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2298.36" y="1809" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-37" target="Ms4OPCBnXegPCIXSTtiP-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-56" value="Chunk写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-43">
+          <mxGeometry x="-0.0704" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-44" value="离线文档覆盖上传" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1788.6399999999999" y="2210" width="109.36" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-57" target="Ms4OPCBnXegPCIXSTtiP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-59">
+          <mxGeometry x="-0.1327" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-57" target="Ms4OPCBnXegPCIXSTtiP-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-65" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-63">
+          <mxGeometry x="-0.053" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-57" value="是否需构建SPG？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2093.68" y="1927.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-62" value="RagFlow知识图谱构建" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="2283.68" y="1942.5" width="89.36" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ms4OPCBnXegPCIXSTtiP-62" target="Ms4OPCBnXegPCIXSTtiP-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-68" value="知识图谱写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms4OPCBnXegPCIXSTtiP-67">
+          <mxGeometry x="-0.0467" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
