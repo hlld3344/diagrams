@@ -1284,6 +1284,42 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1910" as="sourcePoint" />
+            <mxPoint x="1790" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-110" value="知识库构建" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ms4OPCBnXegPCIXSTtiP-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-112" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1934" as="sourcePoint" />
+            <mxPoint x="1790" y="1934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-113" value="知识库更新" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ms4OPCBnXegPCIXSTtiP-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-114" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1960" as="sourcePoint" />
+            <mxPoint x="1790" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-115" value="知识内容查看" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ms4OPCBnXegPCIXSTtiP-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-116" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="1984.5" as="sourcePoint" />
+            <mxPoint x="1790" y="1984.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms4OPCBnXegPCIXSTtiP-117" value="知识内容更新" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ms4OPCBnXegPCIXSTtiP-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
