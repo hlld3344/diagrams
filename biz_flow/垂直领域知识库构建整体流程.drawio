@@ -1349,10 +1349,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-127" value="DeepBank-知识应用" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1417.0699999999997" y="2429.5" width="330" height="40" as="geometry" />
+          <mxGeometry x="1399.9999999999998" y="2440" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ms4OPCBnXegPCIXSTtiP-128" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="2479.5" width="786.71" height="480" as="geometry" />
+          <mxGeometry x="1200" y="2479.5" width="760" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ltofCWNTY5oQTs_8gNhG-1" value="数字人平台" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.secondary_site" vertex="1" parent="1">
+          <mxGeometry x="1260.25" y="2680" width="39.5" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
