@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cDRvLgXt-hZWvaxISTlc-46" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="60" y="60" width="820" height="700" as="geometry" />
+          <mxGeometry x="60" y="60" width="820" height="720" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-44" value="" style="group" vertex="1" connectable="0" parent="cDRvLgXt-hZWvaxISTlc-46">
-          <mxGeometry width="700" height="700" as="geometry" />
+          <mxGeometry width="820" height="720" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-38" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;whiteSpace=wrap;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
-          <mxGeometry width="520" height="700" as="geometry" />
+          <mxGeometry width="500" height="580" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-39" value="业务库" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
-          <mxGeometry x="20" width="160" height="700" as="geometry" />
+          <mxGeometry x="20" width="160" height="580" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-40" value="变更分析Agent" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
-          <mxGeometry x="180" width="160" height="700" as="geometry">
+          <mxGeometry x="180" width="160" height="580" as="geometry">
             <mxRectangle x="151.61290322580643" width="40" height="720" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -60,11 +60,11 @@
           <mxGeometry x="40" y="420.56" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-41" value="ODS建模Agent" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
-          <mxGeometry x="340" width="180" height="700" as="geometry">
+          <mxGeometry x="340" width="160" height="580" as="geometry">
             <mxRectangle x="283.22580645161287" width="40" height="720" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cDRvLgXt-hZWvaxISTlc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-41" source="cDRvLgXt-hZWvaxISTlc-58">
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-41" source="cDRvLgXt-hZWvaxISTlc-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="140" as="targetPoint" />
           </mxGeometry>
@@ -87,6 +87,12 @@
         <mxCell id="cDRvLgXt-hZWvaxISTlc-80" value="1. 新增字段&lt;div&gt;2. 删除字段&lt;/div&gt;&lt;div&gt;3. 修改字段&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=0;pointerEvents=1;align=left;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-41">
           <mxGeometry x="40" y="330" width="80" height="48.89" as="geometry" />
         </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-81" value="下游影响分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-41">
+          <mxGeometry x="40" y="180" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-91" value="1. 已有DW的迭代&lt;div&gt;2. 新增DW&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=0;pointerEvents=1;align=left;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-41">
+          <mxGeometry x="40" y="218.89" width="80" height="48.89" as="geometry" />
+        </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;strokeColor=default;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-38" source="cDRvLgXt-hZWvaxISTlc-50" target="cDRvLgXt-hZWvaxISTlc-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -107,16 +113,83 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-42" value="DW建模Agent" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
-          <mxGeometry x="500" width="160" height="700" as="geometry" />
+          <mxGeometry x="500" width="160" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-42" source="cDRvLgXt-hZWvaxISTlc-60" target="cDRvLgXt-hZWvaxISTlc-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-60" value="DW建模" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
           <mxGeometry x="40" y="60" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-82" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="20" y="140" width="120" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-42" source="cDRvLgXt-hZWvaxISTlc-84" target="cDRvLgXt-hZWvaxISTlc-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-84" value="判断建模类型&lt;div&gt;dwd/dim/dwt/dws&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="40" y="180" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-42" source="cDRvLgXt-hZWvaxISTlc-86" target="cDRvLgXt-hZWvaxISTlc-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-86" value="建模信息生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="40" y="260" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-42" source="cDRvLgXt-hZWvaxISTlc-88" target="cDRvLgXt-hZWvaxISTlc-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-88" value="画布逻辑产出或更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="40" y="340" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-92" value="模型发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="40" y="420" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-98" value="下游影响分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
+          <mxGeometry x="40" y="501.11" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-58" target="cDRvLgXt-hZWvaxISTlc-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-81" target="cDRvLgXt-hZWvaxISTlc-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-95" value="&lt;div style=&quot;line-height: 40%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 40%;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 14px; line-height: 40%;&quot;&gt;1、所有模型的物化不在建模流程中处理，而是在模型使用过程中动态进行处理。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 14px; line-height: 5.6px;&quot;&gt;2、下游影响分析需要调用数据资产Agent的能力。&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal; font-size: 14px;&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal; font-size: 14px;&quot;&gt;DW建模和ADS建模的模型发布需要对接指标平台，将模型中所有指标录入指标平台。&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 9.6px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 14px; font-weight: normal;&quot;&gt;4、所有建模Agent处理过程中需要及时通知数仓或ADS相关负责人，并发送详细的建模报告。&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry y="580" width="820" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-96" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="680" y="140" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-99" target="cDRvLgXt-hZWvaxISTlc-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-99" value="建模信息生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="700" y="180" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-98" target="cDRvLgXt-hZWvaxISTlc-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="521" />
+              <mxPoint x="650" y="199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-101" target="cDRvLgXt-hZWvaxISTlc-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-101" value="画布逻辑产出或更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="700" y="260" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-104" value="模型发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="700" y="340" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-43" value="ADS建模Agent" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-46">
-          <mxGeometry x="660" width="160" height="700" as="geometry" />
+          <mxGeometry x="660" width="160" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-43" source="cDRvLgXt-hZWvaxISTlc-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-62" value="ADS建模" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-43">
           <mxGeometry x="40" y="60" width="80" height="38.888888888888886" as="geometry" />
