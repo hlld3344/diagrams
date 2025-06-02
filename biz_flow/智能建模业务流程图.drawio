@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="W6ySvtXdl_KMA3Iv42CC">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="120" width="680" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-38" value="" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;whiteSpace=wrap;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry width="414.8387096774193" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-39" value="业务库" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
+          <mxGeometry x="20" width="131.61290322580643" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-40" value="变更采集Agent" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
+          <mxGeometry x="151.61290322580643" width="131.61290322580643" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-41" value="ODS建模Agent" style="swimlane;html=1;startSize=20;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-38">
+          <mxGeometry x="283.22580645161287" width="131.61290322580643" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-42" value="DW建模Agent" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="415" width="134" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-43" value="" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="548.3870967741935" width="131.61290322580643" height="720" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
