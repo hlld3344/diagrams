@@ -142,6 +142,9 @@
         <mxCell id="cDRvLgXt-hZWvaxISTlc-88" value="画布逻辑产出或更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
           <mxGeometry x="40" y="340" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-42" source="cDRvLgXt-hZWvaxISTlc-92" target="cDRvLgXt-hZWvaxISTlc-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-92" value="模型发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-42">
           <mxGeometry x="40" y="420" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
@@ -180,8 +183,14 @@
         <mxCell id="cDRvLgXt-hZWvaxISTlc-101" value="画布逻辑产出或更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
           <mxGeometry x="700" y="260" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="cDRvLgXt-hZWvaxISTlc-44" source="cDRvLgXt-hZWvaxISTlc-104" target="cDRvLgXt-hZWvaxISTlc-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-104" value="模型发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
           <mxGeometry x="700" y="340" width="80" height="38.888888888888886" as="geometry" />
+        </mxCell>
+        <mxCell id="cDRvLgXt-hZWvaxISTlc-106" value="下游影响分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-44">
+          <mxGeometry x="700" y="421" width="80" height="38.888888888888886" as="geometry" />
         </mxCell>
         <mxCell id="cDRvLgXt-hZWvaxISTlc-43" value="ADS建模Agent" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="cDRvLgXt-hZWvaxISTlc-46">
           <mxGeometry x="660" width="160" height="580" as="geometry" />
