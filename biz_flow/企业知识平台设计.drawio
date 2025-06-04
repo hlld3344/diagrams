@@ -5,17 +5,49 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="800" height="600" as="geometry">
+          <mxGeometry x="160" y="80" width="960" height="600" as="geometry">
             <mxRectangle x="160" y="80" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-3" value="" style="swimlane;startSize=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-1">
-          <mxGeometry x="80" y="440" width="680" height="120" as="geometry">
-            <mxRectangle x="60" y="360" width="50" height="40" as="alternateBounds" />
+          <mxGeometry x="80" y="360" width="840" height="220" as="geometry">
+            <mxRectangle x="80" y="440" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-4" value="基础层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-1">
-          <mxGeometry x="50" y="482.5" width="20" height="35" as="geometry" />
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-5" value="" style="swimlane;startSize=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-3">
+          <mxGeometry x="40" y="110" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-6" value="大模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-5">
+          <mxGeometry x="25" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-7" value="Embedding模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-5">
+          <mxGeometry x="105" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-8" value="Embedding模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-5">
+          <mxGeometry x="185" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-9" value="&lt;b&gt;模型&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-5">
+          <mxGeometry x="125" width="30" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-10" value="" style="swimlane;startSize=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-3">
+          <mxGeometry x="340" y="110" width="280" height="90" as="geometry">
+            <mxRectangle x="340" y="110" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-11" value="大模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-10">
+          <mxGeometry x="30" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-12" value="Embedding模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-10">
+          <mxGeometry x="110" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-13" value="Embedding模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-10">
+          <mxGeometry x="190" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-14" value="&lt;b&gt;A&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;g&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;e&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;n&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;t&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-10">
+          <mxGeometry x="110" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-4" value="&lt;b&gt;基础层&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-1">
+          <mxGeometry x="40" y="452.5" width="20" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
