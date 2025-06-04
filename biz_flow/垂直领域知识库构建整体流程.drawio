@@ -1606,7 +1606,7 @@
           <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="894g4dnDMnktMycJgzm3-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="894g4dnDMnktMycJgzm3-3">
-          <mxGeometry x="45" y="320" width="10" height="110" as="geometry" />
+          <mxGeometry x="45" y="320" width="10" height="240" as="geometry" />
         </mxCell>
         <mxCell id="894g4dnDMnktMycJgzm3-4" value="Minio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="400" y="80" width="100" height="600" as="geometry" />
@@ -1616,6 +1616,17 @@
         </mxCell>
         <mxCell id="894g4dnDMnktMycJgzm3-5" value="RagFlow" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="800" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-69" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="894g4dnDMnktMycJgzm3-5">
+          <mxGeometry x="45" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="894g4dnDMnktMycJgzm3-5" source="894g4dnDMnktMycJgzm3-69" target="894g4dnDMnktMycJgzm3-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="405" />
+              <mxPoint x="80" y="435" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="894g4dnDMnktMycJgzm3-6" value="KAG" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="1000" y="80" width="100" height="600" as="geometry" />
@@ -1744,8 +1755,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-62" value="返回INIT状态的构建任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="894g4dnDMnktMycJgzm3-60">
+          <mxGeometry x="-0.019" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="894g4dnDMnktMycJgzm3-61" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=40;height=20;" vertex="1" parent="1">
-          <mxGeometry x="200" y="390" width="960" height="230" as="geometry" />
+          <mxGeometry x="200" y="390" width="960" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-70" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" target="894g4dnDMnktMycJgzm3-69">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="485" as="sourcePoint" />
+            <mxPoint x="330" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-71" value="调用RagFlow进行文档构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="894g4dnDMnktMycJgzm3-70">
+          <mxGeometry x="-0.0632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="894g4dnDMnktMycJgzm3-69" target="894g4dnDMnktMycJgzm3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="515" />
+              <mxPoint x="400" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-76" value="返回&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;document_id&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="894g4dnDMnktMycJgzm3-73">
+          <mxGeometry x="0.0542" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="894g4dnDMnktMycJgzm3-77" target="894g4dnDMnktMycJgzm3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="575" />
+              <mxPoint x="460" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-82" value="返回kg_build_job.task_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="894g4dnDMnktMycJgzm3-80">
+          <mxGeometry x="0.0557" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-77" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1045" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-78" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="894g4dnDMnktMycJgzm3-56" target="894g4dnDMnktMycJgzm3-77">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="1195" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-79" value="调用KAG进行文档构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="894g4dnDMnktMycJgzm3-78">
+          <mxGeometry x="-0.0632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="894g4dnDMnktMycJgzm3-77" target="894g4dnDMnktMycJgzm3-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="545" />
+              <mxPoint x="1080" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+            <mxPoint x="250" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="600" />
+              <mxPoint x="280" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="894g4dnDMnktMycJgzm3-86" value="更新&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dbkb_document的kag和ragflow相关字段&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
