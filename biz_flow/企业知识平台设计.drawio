@@ -119,6 +119,45 @@
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-42" value="&lt;b&gt;服务层&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-41">
           <mxGeometry x="10" y="62.5" width="20" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-43" value="" style="swimlane;startSize=0;shadow=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-41">
+          <mxGeometry x="120" y="20" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-44" value="文档解析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="25" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-45" value="语义分段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="105" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-46" value="关键词和问题提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="185" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-47" value="&lt;b&gt;知识构建&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="110" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-53" value="本体模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="25" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-54" value="知识抽取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="105" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-55" value="图谱融合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-43">
+          <mxGeometry x="185" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-48" value="" style="swimlane;startSize=0;shadow=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-41">
+          <mxGeometry x="520" y="20" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-49" value="在线资源获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-48">
+          <mxGeometry x="25" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-50" value="视觉识别(OCR)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-48">
+          <mxGeometry x="105" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-51" value="文档格式转换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-48">
+          <mxGeometry x="185" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-52" value="&lt;b&gt;知识评测&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-48">
+          <mxGeometry x="110" width="60" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
