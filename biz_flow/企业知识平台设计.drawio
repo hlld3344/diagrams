@@ -186,6 +186,33 @@
             <mxRectangle x="160" y="820" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-3" value="企业知识平台" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="200" y="90" width="600" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-10" value="Agent开发平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
+          <mxGeometry x="80" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
+          <mxGeometry x="480" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-4" value="Agent开发平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="40" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-11" value="AI工作台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="40" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-12" value="Confluence" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="880" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-13" value="Teams文档" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="880" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-14" value="GitLab仓库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="880" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-15" value="离线文档" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-1">
+          <mxGeometry x="880" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
