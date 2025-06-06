@@ -183,10 +183,13 @@
           <mxGeometry x="120" y="35" width="95" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-63" value="知识推理" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-59" vertex="1">
-          <mxGeometry x="390" y="35" width="95" height="42.5" as="geometry" />
+          <mxGeometry x="313" y="35" width="95" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-64" value="业务决策" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-59" vertex="1">
           <mxGeometry x="700" y="35" width="95" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-91" value="数据分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lvNZ2ctILBnJvPrkH7Vi-59">
+          <mxGeometry x="507" y="35" width="95" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-61" value="企业知识平台功能架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="lvNZ2ctILBnJvPrkH7Vi-1" vertex="1">
           <mxGeometry x="400" y="10" width="180" height="30" as="geometry" />
