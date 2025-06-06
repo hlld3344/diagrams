@@ -367,21 +367,32 @@
           <mxGeometry x="20" y="140" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-55" value="知识库管理员" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
-          <mxGeometry x="120" width="120" height="459.99999999999994" as="geometry" />
+          <mxGeometry x="120" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-71" value="知识库管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-55">
-          <mxGeometry x="20" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="20" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-55" source="ar-m9gx7rpn5IQMBwHjH-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="259.6190476190477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-75" value="领域知识维护（无缝嵌入日常工作）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-55">
+          <mxGeometry x="140" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-72" value="知识库增删查改、知识库权限管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-55">
+          <mxGeometry x="260" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-76" value="知识持续构建" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-55">
+          <mxGeometry x="260" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-55" source="ar-m9gx7rpn5IQMBwHjH-71" target="ar-m9gx7rpn5IQMBwHjH-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="199.6190476190477" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-56" value="垂直领域专家" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
           <mxGeometry x="240" width="120" height="459.99999999999994" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-56" source="ar-m9gx7rpn5IQMBwHjH-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="239.6190476190477" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-75" value="领域知识维护（无缝嵌入日常工作）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-56">
-          <mxGeometry x="20" y="220" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-57" value="智能体开发平台" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
           <mxGeometry x="480" width="120" height="459.99999999999994" as="geometry" />
@@ -395,17 +406,11 @@
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-69" value="知识元信息增删查改" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-59">
           <mxGeometry x="20" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-72" value="知识库增删查改、知识库权限管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-59">
-          <mxGeometry x="20" y="160" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-76" value="知识持续构建" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-59">
-          <mxGeometry x="20" y="220" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-62" value="智能体开发人员" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
           <mxGeometry x="600" width="120" height="459.99999999999994" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-74" value="领域知识管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-62">
-          <mxGeometry x="20" y="220" width="80" height="40" as="geometry" />
+          <mxGeometry x="20" y="300" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-63" value="普通用户" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
           <mxGeometry x="720" width="120" height="459.99999999999994" as="geometry" />
@@ -415,11 +420,6 @@
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-64" source="ar-m9gx7rpn5IQMBwHjH-68" target="ar-m9gx7rpn5IQMBwHjH-69">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-64" source="ar-m9gx7rpn5IQMBwHjH-71" target="ar-m9gx7rpn5IQMBwHjH-72">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="179.6190476190477" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
