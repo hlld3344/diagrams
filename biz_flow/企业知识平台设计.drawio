@@ -233,26 +233,19 @@
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-37" value="知识评测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
           <mxGeometry x="280" y="90" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-42" value="知识标准化管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
-          <mxGeometry x="280" y="270" width="80" height="40" as="geometry" />
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-3" source="ar-m9gx7rpn5IQMBwHjH-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-42" value="知识元信息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
+          <mxGeometry x="280" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-44" value="知识向量化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
           <mxGeometry x="80" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-46" value="知识构建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
           <mxGeometry x="80" y="320" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-60" value="知识基线管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
-          <mxGeometry x="380" y="270" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-61" value="知识主题域管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
-          <mxGeometry x="480" y="270" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-78" value="本体模型管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
-          <mxGeometry x="280" y="320" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-79" value="本体模型管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
-          <mxGeometry x="380" y="320" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-1" source="ar-m9gx7rpn5IQMBwHjH-4" target="ar-m9gx7rpn5IQMBwHjH-33">
           <mxGeometry relative="1" as="geometry">
