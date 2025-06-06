@@ -353,7 +353,7 @@
           <mxGeometry x="80" y="60" width="840" height="460" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-52" value="平台管理员" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
-          <mxGeometry width="160" height="460" as="geometry">
+          <mxGeometry width="120" height="460" as="geometry">
             <mxRectangle x="80" y="80" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -363,7 +363,7 @@
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-68" value="知识元信息管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-52">
           <mxGeometry x="20" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-95" value="1、本体模型及相关要素&lt;div&gt;2、知识标准、主题域等&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-52">
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-97" value="1. 知识标准、主题域等&lt;div&gt;2. 本体模型及要素&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-52">
           <mxGeometry x="20" y="140" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-55" value="知识库管理员" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-64">
