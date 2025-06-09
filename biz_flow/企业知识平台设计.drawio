@@ -443,7 +443,7 @@
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-71" value="知识库管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="ar-m9gx7rpn5IQMBwHjH-55" vertex="1">
           <mxGeometry x="20" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ar-m9gx7rpn5IQMBwHjH-72" value="知识库增删查改、知识库权限管理、评测" style="rounded=1;whiteSpace=wrap;html=1;" parent="ar-m9gx7rpn5IQMBwHjH-55" vertex="1">
+        <mxCell id="ar-m9gx7rpn5IQMBwHjH-72" value="知识库增删查改、知识库权限管理、评测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="ar-m9gx7rpn5IQMBwHjH-55" vertex="1">
           <mxGeometry x="260" y="180" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ar-m9gx7rpn5IQMBwHjH-55" source="ar-m9gx7rpn5IQMBwHjH-71" target="ar-m9gx7rpn5IQMBwHjH-72" edge="1">
