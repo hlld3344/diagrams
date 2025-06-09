@@ -124,7 +124,7 @@
           <mxGeometry x="170" y="30" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-47" value="&lt;b&gt;知识构建&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lvNZ2ctILBnJvPrkH7Vi-43" vertex="1">
-          <mxGeometry x="110" width="60" height="25" as="geometry" />
+          <mxGeometry x="95" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-54" value="图谱构建" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-43" vertex="1">
           <mxGeometry x="90" y="70" width="70" height="30" as="geometry" />
@@ -489,7 +489,7 @@
         <mxCell id="Nc_NSmvj8e5yVRRCMnbr-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;领域数据标注流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="770" width="960" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;知识评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5a56OnRnIJCvqLU9izG0-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;离线知识评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1450" width="960" height="640" as="geometry" />
         </mxCell>
         <mxCell id="5a56OnRnIJCvqLU9izG0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5a56OnRnIJCvqLU9izG0-7" target="5a56OnRnIJCvqLU9izG0-10">
