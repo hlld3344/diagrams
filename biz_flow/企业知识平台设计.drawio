@@ -141,7 +141,7 @@
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-49" value="通用知识标注管理" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-48" vertex="1">
           <mxGeometry x="10" y="30" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-51" value="知识构建过程中标注" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-48" vertex="1">
+        <mxCell id="lvNZ2ctILBnJvPrkH7Vi-51" value="知识构建过程数据标注" style="rounded=1;whiteSpace=wrap;html=1;" parent="lvNZ2ctILBnJvPrkH7Vi-48" vertex="1">
           <mxGeometry x="100" y="30" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lvNZ2ctILBnJvPrkH7Vi-52" value="&lt;b&gt;数据标注&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="lvNZ2ctILBnJvPrkH7Vi-48" vertex="1">
@@ -226,7 +226,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-17" value="数据源连接" style="rounded=1;whiteSpace=wrap;html=1;" parent="ar-m9gx7rpn5IQMBwHjH-3" vertex="1">
-          <mxGeometry x="440" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="440" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="ar-m9gx7rpn5IQMBwHjH-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -257,13 +257,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-42" value="知识元信息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ar-m9gx7rpn5IQMBwHjH-3" vertex="1">
-          <mxGeometry x="280" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="280" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-44" value="知识向量化" style="rounded=1;whiteSpace=wrap;html=1;" parent="ar-m9gx7rpn5IQMBwHjH-3" vertex="1">
           <mxGeometry x="80" y="240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-46" value="知识构建" style="rounded=1;whiteSpace=wrap;html=1;" parent="ar-m9gx7rpn5IQMBwHjH-3" vertex="1">
           <mxGeometry x="80" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5J_GvMUl2p0bofh7GbKg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="ar-m9gx7rpn5IQMBwHjH-3" source="5J_GvMUl2p0bofh7GbKg-1" target="ar-m9gx7rpn5IQMBwHjH-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="300" />
+              <mxPoint x="380" y="230" />
+              <mxPoint x="460" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5J_GvMUl2p0bofh7GbKg-1" value="多模态数据标注" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ar-m9gx7rpn5IQMBwHjH-3">
+          <mxGeometry x="280" y="280" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ar-m9gx7rpn5IQMBwHjH-1" source="ar-m9gx7rpn5IQMBwHjH-4" target="ar-m9gx7rpn5IQMBwHjH-33" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -304,7 +316,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="240" />
-              <mxPoint x="820" y="320" />
+              <mxPoint x="820" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -314,8 +326,8 @@
         <mxCell id="ar-m9gx7rpn5IQMBwHjH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="ar-m9gx7rpn5IQMBwHjH-1" source="ar-m9gx7rpn5IQMBwHjH-13" target="ar-m9gx7rpn5IQMBwHjH-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="320" />
-              <mxPoint x="850" y="320" />
+              <mxPoint x="820" y="320" />
+              <mxPoint x="820" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -326,7 +338,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="400" />
-              <mxPoint x="820" y="320" />
+              <mxPoint x="820" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -349,7 +361,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="480" />
-              <mxPoint x="820" y="320" />
+              <mxPoint x="820" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
