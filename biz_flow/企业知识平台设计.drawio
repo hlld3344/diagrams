@@ -737,6 +737,9 @@
         <mxCell id="Besnls4MHzHXvKcK8H8U-86" value="模型评测整体流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="Besnls4MHzHXvKcK8H8U-1">
           <mxGeometry x="10" y="520" width="10" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="Besnls4MHzHXvKcK8H8U-87" value="该流程仅包含企业垂域知识的评测，对于公域知识其评测集已梳理好，可以直接使用而无需复杂流程，故不做详细说明。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="Besnls4MHzHXvKcK8H8U-1">
+          <mxGeometry x="880" y="270" width="110" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
