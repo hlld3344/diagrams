@@ -117,6 +117,9 @@
         <mxCell id="s95HID76scR3YO6-07gL-75" value="整理ADS逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-4">
           <mxGeometry x="20" y="510" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-82" value="纯人工构建耗时X分钟/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="s95HID76scR3YO6-07gL-4">
+          <mxGeometry x="20" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-5" value="Hive数仓ADS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="1220" width="120" height="640" as="geometry" />
         </mxCell>
