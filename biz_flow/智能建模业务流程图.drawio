@@ -22,13 +22,31 @@
         <mxCell id="Vvm9jeHT4xGITAVJEtvD-5" value="数仓开发" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="380" width="120" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-22" value="整理DWS逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-5">
+          <mxGeometry x="20" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-25" value="整理DWT逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-5">
+          <mxGeometry x="20" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-27" value="基于DWS和DIM构建DWT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-5">
+          <mxGeometry x="620" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Vvm9jeHT4xGITAVJEtvD-5" source="s95HID76scR3YO6-07gL-25" target="s95HID76scR3YO6-07gL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-32" value="纯人工构建耗时X分钟/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-5">
+          <mxGeometry x="20" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-33" value="纯人工构建耗时X分钟/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-5">
+          <mxGeometry x="20" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="Vvm9jeHT4xGITAVJEtvD-6" value="Hive数仓ODS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="500" width="120" height="640" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-14" value="纯人工整理耗时2-3天/版本" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
           <mxGeometry x="-100" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-17" value="分析ODS逻辑整理数仓逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
+        <mxCell id="s95HID76scR3YO6-07gL-17" value="整理DWD/DIM逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
           <mxGeometry x="-100" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-21" value="纯人工构建耗时90分钟/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
@@ -61,7 +79,7 @@
         <mxCell id="s95HID76scR3YO6-07gL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Vvm9jeHT4xGITAVJEtvD-6" source="s95HID76scR3YO6-07gL-12" target="s95HID76scR3YO6-07gL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-19" value="基于ODS表做数仓建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
+        <mxCell id="s95HID76scR3YO6-07gL-19" value="基于ODS表做DWD建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Vvm9jeHT4xGITAVJEtvD-6">
           <mxGeometry x="140" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Vvm9jeHT4xGITAVJEtvD-6" source="s95HID76scR3YO6-07gL-15" target="s95HID76scR3YO6-07gL-17">
@@ -81,17 +99,69 @@
         <mxCell id="s95HID76scR3YO6-07gL-1" value="Hive数仓DIM" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="740" width="120" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-23" value="基于ODS表做DIM建模" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-1">
+          <mxGeometry x="20" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-2" value="Hive数仓DWS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="860" width="120" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-26" value="基于DWD和DIM构建DWS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-2">
+          <mxGeometry x="20" y="310" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-3" value="Hive数仓DWT" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="980" width="120" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-4" value="Hive数仓ADS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
+        <mxCell id="s95HID76scR3YO6-07gL-4" value="业务方" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="1100" width="120" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-5" value="上层应用（报表等）" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
+        <mxCell id="s95HID76scR3YO6-07gL-75" value="整理ADS逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-4">
+          <mxGeometry x="20" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-5" value="Hive数仓ADS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-6">
           <mxGeometry x="1220" width="120" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-76" value="基于DWT和DWS构建ADS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-5">
+          <mxGeometry x="20" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-17" target="s95HID76scR3YO6-07gL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-22" target="s95HID76scR3YO6-07gL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-23" target="s95HID76scR3YO6-07gL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="280" />
+              <mxPoint x="440" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-26" target="s95HID76scR3YO6-07gL-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="400" />
+              <mxPoint x="440" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-27" target="s95HID76scR3YO6-07gL-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-26" target="s95HID76scR3YO6-07gL-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="s95HID76scR3YO6-07gL-6" source="s95HID76scR3YO6-07gL-75" target="s95HID76scR3YO6-07gL-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-74" value="上层应用（报表等）" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="90" width="120" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-80" value="报表、生产应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s95HID76scR3YO6-07gL-74">
+          <mxGeometry x="20" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s95HID76scR3YO6-07gL-76" target="s95HID76scR3YO6-07gL-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
