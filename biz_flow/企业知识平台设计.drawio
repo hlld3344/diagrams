@@ -1051,26 +1051,66 @@
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="EaQigRBjDMgmPPbwyCpT-1" target="EaQigRBjDMgmPPbwyCpT-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="240" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-4" target="EaQigRBjDMgmPPbwyCpT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-4" value="选择某标注完成的评测集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
-          <mxGeometry x="80" y="190" width="80" height="40" as="geometry" />
+          <mxGeometry x="200" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
-          <mxGeometry x="80" y="110" width="80" height="40" as="geometry" />
+          <mxGeometry x="200" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-7" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
-          <mxGeometry x="80" y="270" width="80" height="40" as="geometry" />
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-7" target="EaQigRBjDMgmPPbwyCpT-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-8" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
-          <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-6" value="RAG召回评测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sI_0P63GdIwXWJ_mRTbp-2">
+          <mxGeometry x="0.5429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-7" target="sI_0P63GdIwXWJ_mRTbp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-8" value="RAG问答评测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sI_0P63GdIwXWJ_mRTbp-7">
+          <mxGeometry x="0.5429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-7" value="选择评测类型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
+          <mxGeometry x="200" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-8" target="sI_0P63GdIwXWJ_mRTbp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-8" value="对于每个Q调用知识库召回接口" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
+          <mxGeometry x="120" y="350" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Bbc8QBmFx-Omj37-VlEy-1" value="&lt;b&gt;RAG召回评测&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
-          <mxGeometry x="70" y="65" width="100" height="30" as="geometry" />
+          <mxGeometry x="190" y="65" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-1" value="对于每个Q调用问答接口" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="280" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-9" value="评测集需要包含Q&amp;amp;分段信息" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="70" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-10" value="评测集需要包含Q&amp;amp;A信息" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="330" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-12" value="比对知识库召回的分段和评测集的分段" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="120" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-14" value="分段内容的相似度比对" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=0;pointerEvents=1;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="40" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-16" value="比对返回的Answer和评测集的Answer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="280" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI_0P63GdIwXWJ_mRTbp-17" value="回复内容的相似度比对" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=0;pointerEvents=1;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+          <mxGeometry x="360" y="430" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mxxJYuBcWG-Y7PzoDe6U-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;模型评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="1450" width="960" height="670" as="geometry" />
