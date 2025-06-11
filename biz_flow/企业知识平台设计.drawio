@@ -833,7 +833,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pLweXE5JKZd0r72KpWDb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Besnls4MHzHXvKcK8H8U-1" source="pLweXE5JKZd0r72KpWDb-2" target="pLweXE5JKZd0r72KpWDb-12">
+        <mxCell id="pLweXE5JKZd0r72KpWDb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Besnls4MHzHXvKcK8H8U-1" source="pLweXE5JKZd0r72KpWDb-2" target="pLweXE5JKZd0r72KpWDb-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pLweXE5JKZd0r72KpWDb-14" value="RAG召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pLweXE5JKZd0r72KpWDb-13">
@@ -850,7 +850,7 @@
         <mxCell id="pLweXE5JKZd0r72KpWDb-9" value="多模态解析评测" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Besnls4MHzHXvKcK8H8U-1">
           <mxGeometry x="601" y="590" width="79" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pLweXE5JKZd0r72KpWDb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Besnls4MHzHXvKcK8H8U-1" source="pLweXE5JKZd0r72KpWDb-12" target="pLweXE5JKZd0r72KpWDb-15">
+        <mxCell id="pLweXE5JKZd0r72KpWDb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=#FF0000;" edge="1" parent="Besnls4MHzHXvKcK8H8U-1" source="pLweXE5JKZd0r72KpWDb-12" target="pLweXE5JKZd0r72KpWDb-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pLweXE5JKZd0r72KpWDb-12" value="RAG召回评测" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="Besnls4MHzHXvKcK8H8U-1">
@@ -1057,7 +1057,7 @@
         <mxCell id="EaQigRBjDMgmPPbwyCpT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-4" target="EaQigRBjDMgmPPbwyCpT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-4" value="选择某标注完成的评测集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-4" value="选择某标注完成的评测集和知识库" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="200" y="190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
