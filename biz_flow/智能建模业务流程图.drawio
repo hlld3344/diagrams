@@ -34,22 +34,22 @@
         <mxCell id="s95HID76scR3YO6-07gL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="Vvm9jeHT4xGITAVJEtvD-5" source="s95HID76scR3YO6-07gL-25" target="s95HID76scR3YO6-07gL-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-32" value="纯人工构建耗时3天/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-5" vertex="1">
+        <mxCell id="s95HID76scR3YO6-07gL-32" value="纯人工构建耗时3天/表&lt;div&gt;约7张表/周&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-5" vertex="1">
           <mxGeometry x="20" y="350" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-33" value="纯人工构建耗时3天/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-5" vertex="1">
+        <mxCell id="s95HID76scR3YO6-07gL-33" value="纯人工构建耗时3天/表&lt;div&gt;约7张表/周&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-5" vertex="1">
           <mxGeometry x="20" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s95HID76scR3YO6-07gL-14" value="纯人工整理耗时2-3天/版本（50张表）" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-5" vertex="1">
+          <mxGeometry x="20" y="110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vvm9jeHT4xGITAVJEtvD-6" value="Hive数仓ODS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" parent="s95HID76scR3YO6-07gL-6" vertex="1">
           <mxGeometry x="500" width="120" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-14" value="纯人工整理耗时2-3天/版本" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-6" vertex="1">
-          <mxGeometry x="-100" y="110" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-17" value="整理DWD/DIM逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="Vvm9jeHT4xGITAVJEtvD-6" vertex="1">
           <mxGeometry x="-100" y="190" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-21" value="纯人工构建耗时90分钟/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-6" vertex="1">
+        <mxCell id="s95HID76scR3YO6-07gL-21" value="纯人工构建耗时90分钟/表&lt;div&gt;10张表/版本&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="Vvm9jeHT4xGITAVJEtvD-6" vertex="1">
           <mxGeometry x="-100" y="230" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-7" value="需求开发" style="rounded=1;whiteSpace=wrap;html=1;" parent="Vvm9jeHT4xGITAVJEtvD-6" vertex="1">
@@ -117,7 +117,7 @@
         <mxCell id="s95HID76scR3YO6-07gL-75" value="整理ADS逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="s95HID76scR3YO6-07gL-4" vertex="1">
           <mxGeometry x="20" y="510" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s95HID76scR3YO6-07gL-82" value="纯人工构建耗时3天/表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="s95HID76scR3YO6-07gL-4" vertex="1">
+        <mxCell id="s95HID76scR3YO6-07gL-82" value="纯人工构建耗时3天/表&lt;div&gt;约7张表/周&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="s95HID76scR3YO6-07gL-4" vertex="1">
           <mxGeometry x="20" y="550" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s95HID76scR3YO6-07gL-5" value="Hive数仓ADS" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" parent="s95HID76scR3YO6-07gL-6" vertex="1">
