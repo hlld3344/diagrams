@@ -930,13 +930,13 @@
         <mxCell id="5QdlN8Q1QEDacKcTwb6Z-3" value="&lt;b&gt;知识构建过程&lt;/b&gt;&lt;div&gt;&lt;b&gt;数据标注&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="150" y="53" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q7BRW89WROvIO7HwaDhT-1" value="标注真实意图" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
+        <mxCell id="Q7BRW89WROvIO7HwaDhT-1" value="标注真实意图" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="160" y="430" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q7BRW89WROvIO7HwaDhT-2" value="标注Question的Answer和引用文档内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
+        <mxCell id="Q7BRW89WROvIO7HwaDhT-2" value="标注Question的Answer和引用文档内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="40" y="430" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Astopu3j6077-Hl86r6B-1" value="检查Q&amp;amp;A准确性，增加引用文档内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
+        <mxCell id="Astopu3j6077-Hl86r6B-1" value="检查Q&amp;amp;A准确性，增加引用文档内容" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="280" y="430" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EaQigRBjDMgmPPbwyCpT-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;在线知识端到端评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
