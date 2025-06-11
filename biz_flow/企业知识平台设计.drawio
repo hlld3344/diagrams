@@ -1010,11 +1010,11 @@
         <mxCell id="2Kd1q85o5m4fvE7fSzhR-2" value="用户使用智能体产生Q&amp;amp;A" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="720" y="190" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fBvuYADLdD3mI0P8p09h-1" value="检查意图识别准确性（标注正确意图）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
+        <mxCell id="fBvuYADLdD3mI0P8p09h-1" value="检查意图识别准确性（标注正确意图）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="600" y="350" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fBvuYADLdD3mI0P8p09h-2" value="检查Q&amp;amp;A准确性，标注正确的Answer和引用文档" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="820" y="350" width="120" height="40" as="geometry" />
+        <mxCell id="fBvuYADLdD3mI0P8p09h-2" value="检查Q&amp;amp;A准确性，标注正确的Answer和引用文档" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
+          <mxGeometry x="810" y="350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RrvI5Ur0L0pWQ_GIvEM3-1" value="筛选历史上没有过的Q&amp;amp;A" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
           <mxGeometry x="720" y="270" width="80" height="40" as="geometry" />
