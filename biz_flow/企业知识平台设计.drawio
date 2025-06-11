@@ -876,59 +876,36 @@
         <mxCell id="LPGUYLZFshZ1P8LKM3rK-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;知识元信息管理流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="960" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="Nc_NSmvj8e5yVRRCMnbr-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;领域数据标注流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nc_NSmvj8e5yVRRCMnbr-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;领域数据标注流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="770" width="960" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;离线知识评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5a56OnRnIJCvqLU9izG0-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;知识评测详细流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1450" width="960" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5a56OnRnIJCvqLU9izG0-7" target="5a56OnRnIJCvqLU9izG0-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="150" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5a56OnRnIJCvqLU9izG0-7" source="5a56OnRnIJCvqLU9izG0-10" target="5a56OnRnIJCvqLU9izG0-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-10" value="选择某通用数据集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="80" y="190" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-11" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="80" y="110" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-12" value="BEIR v1/v2、MTEB等" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="170" y="190" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-13" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="80" y="270" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5a56OnRnIJCvqLU9izG0-14" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="5a56OnRnIJCvqLU9izG0-7">
-          <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;在线知识端到端评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;在线知识端到端评测流程&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1450" width="960" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="EaQigRBjDMgmPPbwyCpT-1" target="EaQigRBjDMgmPPbwyCpT-4">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="EaQigRBjDMgmPPbwyCpT-1" target="EaQigRBjDMgmPPbwyCpT-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-4" target="EaQigRBjDMgmPPbwyCpT-7">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="EaQigRBjDMgmPPbwyCpT-1" source="EaQigRBjDMgmPPbwyCpT-4" target="EaQigRBjDMgmPPbwyCpT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-4" value="选择某通用数据集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-4" value="选择某通用数据集" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="80" y="190" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="80" y="110" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-6" value="BEIR v1/v2、MTEB等" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-6" value="BEIR v1/v2、MTEB等" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="170" y="190" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-7" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-7" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="80" y="270" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EaQigRBjDMgmPPbwyCpT-8" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="EaQigRBjDMgmPPbwyCpT-1">
+        <mxCell id="EaQigRBjDMgmPPbwyCpT-8" value="数据集连接和下载" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="EaQigRBjDMgmPPbwyCpT-1" vertex="1">
           <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
