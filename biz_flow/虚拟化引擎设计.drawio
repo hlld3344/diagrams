@@ -45,7 +45,7 @@
             <mxPoint x="320" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_vgOvvoxs-VGrtm53rR-17" value="逻辑模型预览（DSL）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_vgOvvoxs-VGrtm53rR-16">
+        <mxCell id="w_vgOvvoxs-VGrtm53rR-17" value="逻辑模型预览（SQL）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_vgOvvoxs-VGrtm53rR-16">
           <mxGeometry x="-0.28" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -64,6 +64,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="w_vgOvvoxs-VGrtm53rR-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w_vgOvvoxs-VGrtm53rR-1" target="w_vgOvvoxs-VGrtm53rR-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w_vgOvvoxs-VGrtm53rR-22" value="接收请求，返回响应" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w_vgOvvoxs-VGrtm53rR-1">
           <mxGeometry x="80" y="230" width="500" height="40" as="geometry" />
         </mxCell>
@@ -72,12 +77,6 @@
         </mxCell>
         <mxCell id="w_vgOvvoxs-VGrtm53rR-32" value="智能引擎" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="w_vgOvvoxs-VGrtm53rR-31">
           <mxGeometry y="136.25" width="20" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="w_vgOvvoxs-VGrtm53rR-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="w_vgOvvoxs-VGrtm53rR-31">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="60" as="sourcePoint" />
-            <mxPoint x="279.5" y="200" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="w_vgOvvoxs-VGrtm53rR-23" value="接口层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="w_vgOvvoxs-VGrtm53rR-31">
           <mxGeometry x="40" y="23.75" width="20" height="30" as="geometry" />
@@ -102,6 +101,18 @@
         </mxCell>
         <mxCell id="w_vgOvvoxs-VGrtm53rR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="w_vgOvvoxs-VGrtm53rR-29" source="w_vgOvvoxs-VGrtm53rR-33" target="w_vgOvvoxs-VGrtm53rR-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_vgOvvoxs-VGrtm53rR-66" value="SQL中逻辑模型的DSL查询（调用建模平台）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w_vgOvvoxs-VGrtm53rR-31">
+          <mxGeometry x="40" y="100" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w_vgOvvoxs-VGrtm53rR-68" value="转换引擎" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="w_vgOvvoxs-VGrtm53rR-31">
+          <mxGeometry x="40" y="105" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_vgOvvoxs-VGrtm53rR-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="w_vgOvvoxs-VGrtm53rR-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.5" y="140" as="sourcePoint" />
+            <mxPoint x="279.5" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w_vgOvvoxs-VGrtm53rR-39" value="技术架构图" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="50" width="640" height="550" as="geometry">
