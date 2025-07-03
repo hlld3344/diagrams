@@ -657,7 +657,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MkY_uNqSl6zFe71rM9RR-1" value="&lt;span data-copy-origin=&quot;https://doc.360teams.com&quot; data-docs-delta=&quot;[[20,&amp;quot;资产分类流程&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;font-size: 12pt;&quot; data-default-linespacing=&quot;100&quot; data-foldable=&quot;true&quot; class=&quot;ql-direction-ltr ql-long-1396&quot; data-header=&quot;4&quot;&gt;&lt;span class=&quot;ql-author-1396&quot;&gt;DWD/DIM建模流程图&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="1080" height="320" as="geometry" />
+          <mxGeometry x="160" y="120" width="1000" height="320" as="geometry" />
         </mxCell>
         <mxCell id="MkY_uNqSl6zFe71rM9RR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="MkY_uNqSl6zFe71rM9RR-3" target="MkY_uNqSl6zFe71rM9RR-4">
           <mxGeometry relative="1" as="geometry" />
@@ -687,8 +687,14 @@
         <mxCell id="MkY_uNqSl6zFe71rM9RR-7" value="数仓分层判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
           <mxGeometry x="520" y="160" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="B5DK2slBE7i3QEJhcond-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-1" target="B5DK2slBE7i3QEJhcond-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5DK2slBE7i3QEJhcond-1" value="生成数据域、业务过程、表名和表描述" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
           <mxGeometry x="520" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5DK2slBE7i3QEJhcond-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-4" target="B5DK2slBE7i3QEJhcond-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B5DK2slBE7i3QEJhcond-4" value="生成维度类型、表名和表描述信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
           <mxGeometry x="520" y="240" width="80" height="40" as="geometry" />
@@ -712,6 +718,33 @@
         </mxCell>
         <mxCell id="B5DK2slBE7i3QEJhcond-12" value="AI自动补全ODS表和字段描述信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
           <mxGeometry x="400" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_o3sxvNJbyEjznpqaZUW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-17" target="_o3sxvNJbyEjznpqaZUW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5DK2slBE7i3QEJhcond-17" value="字段列表筛选和字段名称标准化" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+          <mxGeometry x="640" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_o3sxvNJbyEjznpqaZUW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-38" target="_o3sxvNJbyEjznpqaZUW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5DK2slBE7i3QEJhcond-38" value="字段名称标准化" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+          <mxGeometry x="640" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a6tvvF1aFKDGIuA6pxTC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="_o3sxvNJbyEjznpqaZUW-1" target="a6tvvF1aFKDGIuA6pxTC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_o3sxvNJbyEjznpqaZUW-1" value="定义字段计算逻辑" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+          <mxGeometry x="760" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="So8iW9trALvlDeLoaTTP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="a6tvvF1aFKDGIuA6pxTC-1" target="So8iW9trALvlDeLoaTTP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6tvvF1aFKDGIuA6pxTC-1" value="触发系统开始DWD/DIM建模" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+          <mxGeometry x="880" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="So8iW9trALvlDeLoaTTP-1" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+          <mxGeometry x="880" y="240" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
