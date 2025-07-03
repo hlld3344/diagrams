@@ -716,7 +716,7 @@
         <mxCell id="B5DK2slBE7i3QEJhcond-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-12" target="MkY_uNqSl6zFe71rM9RR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B5DK2slBE7i3QEJhcond-12" value="AI自动补全ODS表和字段描述信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
+        <mxCell id="B5DK2slBE7i3QEJhcond-12" value="AI自动补全ODS表和字段描述信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="MkY_uNqSl6zFe71rM9RR-1">
           <mxGeometry x="400" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_o3sxvNJbyEjznpqaZUW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="MkY_uNqSl6zFe71rM9RR-1" source="B5DK2slBE7i3QEJhcond-17" target="_o3sxvNJbyEjznpqaZUW-1">
