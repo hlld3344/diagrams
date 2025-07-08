@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="jOGKANmGKJF40Ewu6Mt6">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qmGjcj7aNecQh5ptm91W-1" value="评测中心整体流程" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="600" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="qmGjcj7aNecQh5ptm91W-1" source="qmGjcj7aNecQh5ptm91W-7" target="qmGjcj7aNecQh5ptm91W-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-7" value="评测集管理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="qmGjcj7aNecQh5ptm91W-1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qmGjcj7aNecQh5ptm91W-1" source="qmGjcj7aNecQh5ptm91W-9" target="qmGjcj7aNecQh5ptm91W-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-9" value="评测案例管理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="qmGjcj7aNecQh5ptm91W-1">
+          <mxGeometry x="200" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-11" value="主要包括案例新建和标注" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="qmGjcj7aNecQh5ptm91W-1">
+          <mxGeometry x="200" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qmGjcj7aNecQh5ptm91W-1" source="qmGjcj7aNecQh5ptm91W-12" target="qmGjcj7aNecQh5ptm91W-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-12" value="运行评测集" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="qmGjcj7aNecQh5ptm91W-1">
+          <mxGeometry x="320" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qmGjcj7aNecQh5ptm91W-15" value="查看评测报告" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="qmGjcj7aNecQh5ptm91W-1">
+          <mxGeometry x="440" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
